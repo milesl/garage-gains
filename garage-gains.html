@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0a0a0f">
+<title>Garage Gains</title>
+<link rel="manifest" href="data:application/json;base64,">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="garage-gains.css">
+</head>
+<body>
+
+<div class="app">
+  <div class="header">
+    <div class="header-top">
+      <div class="logo">Garage <span>Gains</span></div>
+    </div>
+    <div class="header-sub">Garage Gym Workout System</div>
+  </div>
+
+  <!-- ═══ EQUIPMENT PAGE ═══ -->
+  <div class="page active" id="page-equip">
+    <div class="section-title">Barbells & Plates</div>
+    <div class="equip-grid">
+      <div class="equip-card">
+        <div class="equip-icon strength">⊕</div>
+        <div class="equip-info">
+          <div class="equip-name">Olympic Barbell</div>
+          <div class="equip-detail">15 kg bar · Landmine compatible</div>
+        </div>
+        <div class="equip-tag">15 kg</div>
+      </div>
+      <div class="equip-card">
+        <div class="equip-icon strength">⊕</div>
+        <div class="equip-info">
+          <div class="equip-name">Standard Barbell</div>
+          <div class="equip-detail">10 kg bar</div>
+        </div>
+        <div class="equip-tag">10 kg</div>
+      </div>
+      <div class="equip-card">
+        <div class="equip-icon strength">◉</div>
+        <div class="equip-info">
+          <div class="equip-name">Olympic Plates</div>
+          <div class="equip-detail">1.25×2 · 2.5×2 · 10×2 · 15×2 · 20×2 kg</div>
+        </div>
+        <div class="equip-tag">97.5 kg</div>
+      </div>
+      <div class="equip-card">
+        <div class="equip-icon strength">◉</div>
+        <div class="equip-info">
+          <div class="equip-name">Standard Plates</div>
+          <div class="equip-detail">2.5×2 · 5×2 · 10×2 · 20×2 kg</div>
+        </div>
+        <div class="equip-tag">75 kg</div>
+      </div>
+    </div>
+
+    <div class="section-title">Dumbbells & Kettlebells</div>
+    <div class="equip-grid">
+      <div class="equip-card">
+        <div class="equip-icon strength">⊛</div>
+        <div class="equip-info">
+          <div class="equip-name">Spin Lock Dumbbells ×2</div>
+          <div class="equip-detail">Use standard plates · Adjustable</div>
+        </div>
+        <div class="equip-tag">Pair</div>
+      </div>
+      <div class="equip-card">
+        <div class="equip-icon strength">◆</div>
+        <div class="equip-info">
+          <div class="equip-name">Kettlebell</div>
+          <div class="equip-detail">Fixed weight</div>
+        </div>
+        <div class="equip-tag">6 kg</div>
+      </div>
+    </div>
+
+    <div class="section-title">Stations & Supports</div>
+    <div class="equip-grid">
+      <div class="equip-card">
+        <div class="equip-icon accessory">▦</div>
+        <div class="equip-info">
+          <div class="equip-name">Squat Pillars</div>
+          <div class="equip-detail">With dip handles · No safety catches</div>
+        </div>
+        <div class="equip-tag">Rack</div>
+      </div>
+      <div class="equip-card">
+        <div class="equip-icon accessory">⊡</div>
+        <div class="equip-info">
+          <div class="equip-name">Adjustable Bench</div>
+          <div class="equip-detail">Flat & incline positions</div>
+        </div>
+        <div class="equip-tag">Bench</div>
+      </div>
+      <div class="equip-card">
+        <div class="equip-icon accessory">↟</div>
+        <div class="equip-info">
+          <div class="equip-name">Climber Grip Chin-Up Bar</div>
+          <div class="equip-detail">Multiple grip options</div>
+        </div>
+        <div class="equip-tag">Bar</div>
+      </div>
+      <div class="equip-card">
+        <div class="equip-icon accessory">⊘</div>
+        <div class="equip-info">
+          <div class="equip-name">Landmine + Row Grip</div>
+          <div class="equip-detail">Fits olympic barbell</div>
+        </div>
+        <div class="equip-tag">Attach</div>
+      </div>
+    </div>
+
+    <div class="section-title">Cardio</div>
+    <div class="equip-grid">
+      <div class="equip-card">
+        <div class="equip-icon cardio">⟐</div>
+        <div class="equip-info">
+          <div class="equip-name">Treadmill</div>
+          <div class="equip-detail">Walk · Jog · Run · Incline</div>
+        </div>
+        <div class="equip-tag">Cardio</div>
+      </div>
+      <div class="equip-card">
+        <div class="equip-icon cardio">⊙</div>
+        <div class="equip-info">
+          <div class="equip-name">Stationary Bike</div>
+          <div class="equip-detail">Adjustable resistance</div>
+        </div>
+        <div class="equip-tag">Cardio</div>
+      </div>
+      <div class="equip-card">
+        <div class="equip-icon cardio">∿</div>
+        <div class="equip-info">
+          <div class="equip-name">Battle Rope</div>
+          <div class="equip-detail">Conditioning & power endurance</div>
+        </div>
+        <div class="equip-tag">Cardio</div>
+      </div>
+      <div class="equip-card">
+        <div class="equip-icon cardio">⊗</div>
+        <div class="equip-info">
+          <div class="equip-name">Heavy Bag</div>
+          <div class="equip-detail">Boxing · Combos · Conditioning</div>
+        </div>
+        <div class="equip-tag">Cardio</div>
+      </div>
+    </div>
+
+    <div class="section-title">Accessories</div>
+    <div class="equip-grid">
+      <div class="equip-card">
+        <div class="equip-icon accessory">≋</div>
+        <div class="equip-info">
+          <div class="equip-name">Resistance Bands</div>
+          <div class="equip-detail">Full set · Light to heavy</div>
+        </div>
+        <div class="equip-tag">Set</div>
+      </div>
+      <div class="equip-card">
+        <div class="equip-icon accessory">☊</div>
+        <div class="equip-info">
+          <div class="equip-name">Ab Roller</div>
+          <div class="equip-detail">Core training</div>
+        </div>
+        <div class="equip-tag">Core</div>
+      </div>
+      <div class="equip-card">
+        <div class="equip-icon accessory">⊓</div>
+        <div class="equip-info">
+          <div class="equip-name">Push-Up Grips</div>
+          <div class="equip-detail">Ergonomic handles</div>
+        </div>
+        <div class="equip-tag">Grips</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ EXERCISES PAGE ═══ -->
+  <div class="page" id="page-exercises">
+    <div class="section-title" style="margin-top:8px">Filter by Muscle Group</div>
+    <div class="exercise-filters" id="exerciseFilters"></div>
+    <div class="exercise-count" id="exerciseCount"></div>
+    <div class="exercise-list" id="exerciseList"></div>
+  </div>
+
+  <!-- ═══ GENERATE PAGE ═══ -->
+  <div class="page" id="page-generate">
+    <div class="section-title" style="margin-top:8px">Workout Type</div>
+    <div class="gen-options" id="typeOptions">
+      <div class="gen-opt active" data-type="weights" onclick="selectType(this)">
+        🏋️<br>Weights
+        <small>Strength focus</small>
+      </div>
+      <div class="gen-opt" data-type="cardio" onclick="selectType(this)">
+        🫀<br>Cardio
+        <small>Heart rate up</small>
+      </div>
+      <div class="gen-opt" data-type="circuit" onclick="selectType(this)">
+        ⚡<br>Circuit
+        <small>Mix of both</small>
+      </div>
+    </div>
+
+    <div id="focusSection">
+      <div class="section-title">Focus Area</div>
+      <div class="focus-grid" id="focusOptions">
+        <div class="focus-opt active" data-focus="full" onclick="selectFocus(this)">Full Body</div>
+        <div class="focus-opt" data-focus="upper" onclick="selectFocus(this)">Upper Body</div>
+        <div class="focus-opt" data-focus="lower" onclick="selectFocus(this)">Lower Body</div>
+        <div class="focus-opt" data-focus="push" onclick="selectFocus(this)">Push</div>
+        <div class="focus-opt" data-focus="pull" onclick="selectFocus(this)">Pull</div>
+        <div class="focus-opt" data-focus="core" onclick="selectFocus(this)">Core</div>
+      </div>
+    </div>
+
+    <div class="section-title">Duration</div>
+    <div class="gen-options" id="durationOptions">
+      <div class="gen-opt" data-duration="15" onclick="selectDuration(this)">
+        15<small>minutes</small>
+      </div>
+      <div class="gen-opt active" data-duration="30" onclick="selectDuration(this)">
+        30<small>minutes</small>
+      </div>
+      <div class="gen-opt" data-duration="45" onclick="selectDuration(this)">
+        45<small>minutes</small>
+      </div>
+      <div class="gen-opt" data-duration="60" onclick="selectDuration(this)">
+        60<small>minutes</small>
+      </div>
+    </div>
+
+    <div class="section-title">Intensity</div>
+    <div class="gen-options" id="intensityOptions">
+      <div class="gen-opt" data-intensity="low" onclick="selectIntensity(this)">
+        🟢<br>Low
+        <small>Recovery / light</small>
+      </div>
+      <div class="gen-opt active" data-intensity="moderate" onclick="selectIntensity(this)">
+        🟡<br>Moderate
+        <small>Steady effort</small>
+      </div>
+      <div class="gen-opt" data-intensity="high" onclick="selectIntensity(this)">
+        🔴<br>High
+        <small>All out</small>
+      </div>
+    </div>
+
+    <button class="generate-btn" onclick="generateWorkout()">Generate Workout</button>
+
+    <div id="workoutOutput"></div>
+  </div>
+
+  <!-- ═══ TIMER PAGE ═══ -->
+  <div class="page" id="page-timer">
+    <div class="timer-display">
+      <div class="timer-time" id="timerDisplay">01:00</div>
+      <div class="timer-label" id="timerLabel">Ready</div>
+    </div>
+
+    <div class="section-title" style="margin-top:8px">Presets</div>
+    <div class="timer-presets">
+      <button class="timer-preset" onclick="setTimerPreset(30, this)">0:30</button>
+      <button class="timer-preset active" onclick="setTimerPreset(60, this)">1:00</button>
+      <button class="timer-preset" onclick="setTimerPreset(90, this)">1:30</button>
+      <button class="timer-preset" onclick="setTimerPreset(120, this)">2:00</button>
+      <button class="timer-preset" onclick="setTimerPreset(180, this)">3:00</button>
+      <button class="timer-preset" onclick="setTimerPreset(300, this)">5:00</button>
+    </div>
+
+    <div class="section-title">Custom</div>
+    <div class="timer-custom">
+      <label>Seconds</label>
+      <input type="number" id="customSeconds" placeholder="e.g. 45" min="1" max="3600" onchange="setCustomTime()">
+    </div>
+
+    <div class="timer-controls">
+      <button class="timer-btn secondary" onclick="resetTimer()">↻ Reset</button>
+      <button class="timer-btn primary" id="timerStartBtn" onclick="startPauseTimer()">▶ Start</button>
+    </div>
+  </div>
+
+  <!-- ═══ NAV ═══ -->
+  <nav class="nav">
+    <button class="nav-btn active" onclick="switchPage('equip', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M3 12h6m6 0h6"/></svg>
+      Kit
+    </button>
+    <button class="nav-btn" onclick="switchPage('exercises', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+      Exercises
+    </button>
+    <button class="nav-btn" onclick="switchPage('generate', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+      Generate
+    </button>
+    <button class="nav-btn" onclick="switchPage('timer', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2"/><path d="M9 1h6"/></svg>
+      Timer
+    </button>
+  </nav>
+</div>
+
+<script src="garage-gains.js"></script>
+
+</body>
+</html>
