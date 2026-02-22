@@ -8,14 +8,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Running
 
-Open `garage-gains.html` directly in a browser. There is no build step, package manager, or dev server.
+Open `index.html` directly in a browser. There is no build step, package manager, or dev server.
 
 ## Architecture
 
 Split across three files:
-- **`garage-gains.html`** — HTML structure with `<link>` and `<script>` tags. Four tab pages — Equipment (Kit), Exercises, Workout Generator (Generate), and Timer.
-- **`garage-gains.css`** — All CSS using custom properties for theming (`--bg`, `--accent`, `--text-dim`, etc.)
-- **`garage-gains.js`** — All JavaScript: exercise database (108 exercises), filtering, workout generation, standalone timer, and workout timer overlay.
+- **`index.html`** — HTML structure with `<link>` and `<script>` tags. Four tab pages — Equipment (Kit), Exercises, Workout Generator (Generate), and Timer.
+- **`css/styles.css`** — All CSS using custom properties for theming (`--bg`, `--accent`, `--text-dim`, etc.)
+- **`js/app.js`** — All JavaScript: exercise database (108 exercises), filtering, workout generation, standalone timer, and workout timer overlay.
 
 ### Four Main Sections (bottom nav tabs)
 1. **Equipment (Kit)** — Static list of home gym equipment organized by category (including Heavy Bag for boxing)
