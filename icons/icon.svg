@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0a0a0f"/>
+  <!-- Barbell -->
+  <rect x="156" y="224" width="200" height="64" rx="8" fill="#d4a843"/>
+  <!-- Left weight plates -->
+  <rect x="100" y="176" width="56" height="160" rx="12" fill="#d4a843"/>
+  <rect x="68" y="200" width="32" height="112" rx="8" fill="#b8922e"/>
+  <!-- Right weight plates -->
+  <rect x="356" y="176" width="56" height="160" rx="12" fill="#d4a843"/>
+  <rect x="412" y="200" width="32" height="112" rx="8" fill="#b8922e"/>
+  <!-- Text -->
+  <text x="256" y="420" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="72" fill="#d4a843">GG</text>
+</svg>
